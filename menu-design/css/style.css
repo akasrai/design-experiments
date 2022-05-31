@@ -1,0 +1,47 @@
+.navbar-list {
+   list-style-type: none; /* List ko bullet hataune*/
+}
+
+.navbar-list li a {
+   text-decoration: none; /* Undeline hataune a tag bata*/
+   color: white; /* Text lai color dine*/
+   font-family: arial;
+   font-size: 1rem;
+}
+
+.navbar-list li {
+   float: left; /* List lai left tira float garaune*/
+   padding: 15px 15px; /* all side 15px padding diney*/
+}
+
+.navbar-list li:hover {
+   background: #373738;
+}
+
+.dropdown-submenu {
+   position: absolute;
+   background: #373738;
+   display: none;
+   top: 46px;
+   margin-left: -15px;
+   width: 150px;
+}
+
+.dropdown-submenu li {
+   list-style-type: none;
+   float: none;
+}
+
+.navbar-list li:hover ul {
+   display: block;
+}
+
+.navbar-list li ul li:hover {
+   background: #595a5b;
+}
+
+.dropdown-icon {
+   width: 14px;
+   height: 12px;
+   padding-left: 3px;
+}
