@@ -1,0 +1,80 @@
+1) Html
+2) Headings
+3) Paragraph
+4) Forms [text, password, submit, radio, checkbox, button, date, number, checkbox ]
+5) Table
+6) Div
+8) Span
+9) List ul li
+10) List ol li
+11) Layouts (grid, missionary)
+
+   header
+   navbar
+   aside
+   section
+   footer
+
+#SELECTORS
+   element
+   class
+   id
+   *
+
+#SAAS vs vs LESS vs css
+
+#Properties 
+   Width (max-min)
+   Height (max-min)
+   Margin
+   Padding 
+   Fonts	[align,style,weight,family,size]
+   Float
+   Measurement units (px, %, em)
+   Position [static, absolute, relative, fixed, sticky] https://www.w3schools.com/css/css_positioning.asp
+   Display [none, grid, inline, block, inline-block, flex]
+   Visibility [hidden]
+   Border [top, right, buttom, right]
+   Outline Width (max-min)
+   Height (max-min)
+   Border-radius [border-bottom-right-radius]
+   Background [gradient]
+   Opacity
+   Text-Decoration
+   List-style-type
+   Overflow
+   z-index
+   Grid
+   Animation
+   @keyframes
+
+#Compactibility
+   -webkit-
+
+   REFERENCE: https://www.w3schools.com/cssref/
+
+#Responsive
+@media only screen and (max-width: 600px)
+
+#Css UNIT
+Absolute unit
+   cm	   centimeters
+   mm 	millimeters
+   in	   inches (1in = 96px = 2.54cm)
+   px    pixels (1px = 1/96th of 1in)
+   pt	   points (1pt = 1/72 of 1in)
+   pc	   picas (1pc = 12 pt)
+
+Relative unit
+   em	   Relative to the font-size of the element (1em = 16px, 2em means 2 times the size of the current font)	
+   ex	   Relative to the x-height of the current font (rarely used)	
+   ch	   Relative to width of the "0" (zero)	
+   rem	Relative to font-size of the root element	
+   vw	   Relative to 1% of the width of the viewport*	
+   vh	   Relative to 1% of the height of the viewport*	
+   vmin	Relative to 1% of viewport's* smaller dimension	
+   vmax	Relative to 1% of viewport's* larger dimension	
+   %	   Relative to the parent element
+
+   * Viewport = the browser window size. If the viewport is 50cm wide, 1vw = 0.5cm.
+   
