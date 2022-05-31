@@ -1,0 +1,134 @@
+.container {
+   width: 1100px;
+   margin: 0 auto;
+   /* background: gray; */
+}
+
+.header-wrapper {
+   width: 100%;
+   /* background: yellow; */
+   outline: 1px dashed black;
+}
+
+.navbar-wrapper {
+   /* background: green; */
+   outline: 1px dashed black;
+}
+
+.content-wrapper {
+   /* background: yellow; */
+   outline: 1px dashed black;
+}
+
+.footer-wrapper {
+   /* background: olive; */
+   outline: 1px dashed black;
+}
+
+.logo-searchbar-wrapper {
+   width: 800px;
+   /* background: purple; */
+   outline: 1px dashed black;
+   float: left;
+}
+
+.logo-wrapper {
+   width: 300px;
+   /* background: pink; */
+   outline: 1px dashed black;
+   float: left;
+}
+
+.searchbar-wrapper {
+   width: 500px;
+   /* background: green; */
+   outline: 1px dashed black;
+
+   float: right;
+}
+
+.user-info-wrapper {
+   width: 300px;
+   /* background: lightcoral; */
+   float: right;
+
+   outline: 1px dashed black;
+}
+
+.navbar-list-wrapper {
+   /* background: lightgreen; */
+   width: 700px;
+   outline: 1px dashed black;
+   float: left;
+}
+
+.user-info-list-wrapper {
+   /* background: lightslategray; */
+   width: 400px;
+   outline: 1px dashed black;
+   float: right;
+}
+
+.left-sidebar-wrapper {
+   /* background: honeydew; */
+   width: 800px;
+   float: left;
+}
+
+.left-child-sidebar {
+   /* background: navy; */
+   width: 250px;
+   outline: 1px dashed black;
+   float: left;
+}
+
+.middle-content-wrapper {
+   /* background: khaki; */
+   width: 550px;
+   outline: 1px dashed black;
+   float: right;
+}
+
+.right-sidebar-wrapper {
+   /* background: yellowgreen; */
+   width: 300px;
+   outline: 1px dashed black;
+   float: right;
+}
+
+.left-footer-wrapper {
+   /* background: fuchsia; */
+   width: 770px;
+   outline: 1px dashed black;
+   float: left;
+}
+
+.right-footer-wrapper {
+   /* background: slateblue; */
+   width: 330px;
+   outline: 1px dashed black;
+   float: left;
+}
+
+.abc {
+   width: 100px;
+   height: 100px;
+   background: green;
+}
+
+.xyz {
+   width: 100px;
+   height: 100px;
+   background: blue;
+}
+.abc.xyz {
+   width: 100px;
+   height: 100px;
+   background: red;
+}
+
+.abc .xyz {
+   width: 100px;
+   height: 100px;
+   background: rgb(255, 174, 0);
+}

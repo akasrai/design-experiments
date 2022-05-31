@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Float Game</title>
+      <style>
+         .clearfix {
+            content: "";
+            clear: both;
+            display: table;
+         }
+         .size {
+            width: 100px;
+            height: 100px;
+         }
+
+         .red {
+            background: red;
+         }
+
+         .green {
+            background: green;
+         }
+
+         .blue {
+            background: blue;
+         }
+
+         .yellow {
+            background: yellow;
+         }
+
+         .float-left {
+            float: left;
+         }
+
+         .float-right {
+            float: right;
+         }
+      </style>
+   </head>
+   <body>
+      <!-- step 1  -->
+      <h2>1st</h2>
+      <div class="red size"></div>
+      <div class="green size"></div>
+      <div class="blue size"></div>
+      <div class="yellow size"></div>
+
+      <!-- step 2 -->
+      <h2>2nd</h2>
+
+      <div class="red size float-left"></div>
+      <div class="green size float-left"></div>
+      <div class="blue size float-left"></div>
+      <div class="yellow size float-left"></div>
+
+      <div style="width:100%;height:200px;"></div>
+      <!-- step 3 -->
+      <h2>3rd</h2>
+      <div class="clearfix">
+         <div class="red size float-left"></div>
+         <div class="green size float-left"></div>
+      </div>
+      <div class="">
+         <div class="blue size float-left"></div>
+         <div class="yellow size float-left"></div>
+      </div>
+
+      <!-- step 4 -->
+
+      <div style="width:100%;height:200px;"></div>
+
+      <h2>4th</h2>
+      <div class="clearfix">
+         <div class="red size float-left"></div>
+         <div class="green size float-left"></div>
+      </div>
+      <div class="">
+         <div class="yellow size float-left"></div>
+         <div class="blue size float-left"></div>
+      </div>
+
+      <div style="width:100%;height:200px;"></div>
+   </body>
+</html>

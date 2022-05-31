@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         * {
+            margin: 0;
+            padding: 0;
+         }
+         .content {
+            width: 100%;
+            background: red;
+         }
+
+         .left {
+            width: 40%;
+            height: 100px;
+            background: green;
+            float: left;
+         }
+
+         .right {
+            width: 40%;
+            background: blue;
+            float: right;
+         }
+         .paragraph {
+         }
+
+         .clear::after {
+            content: "";
+            clear: both;
+            display: table;
+         }
+
+         .jpt {
+            width: 70%;
+            height: 60px;
+            background: yellow;
+            float: right;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="content clear">
+         <div class="left">left</div>
+         <div class="right">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore,
+            suscipit officia! Suscipit minus nisi aspernatur eveniet nesciunt?
+            Iure mollitia doloribus cumque quis fuga error. Pariatur mollitia
+            delectus necessitatibus odit corrupti? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Fuga molestias numquam corrupti
+            adipisci harum, cum dignissimos vero ducimus cumque voluptate ipsa
+            nam unde tempore corporis ab provident magnam non. Fuga! Lorem ipsum
+            dolor sit, amet consectetur adipisicing elit. Aperiam, natus nam
+            asperiores, id non neque fugit commodi ullam nostrum debitis
+            mollitia sed magnam sit ipsum laudantium illo culpa eius odio! Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Ab dignissimos
+            similique magni vero quibusdam nisi autem porro, deleniti illum
+            ipsa? Voluptas, voluptatum quo! Tempore similique magni rem
+            obcaecati vitae quisquam!
+         </div>
+         <div class="jpt"></div>
+      </div>
+
+      <p>
+         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo sapiente
+         numquam aut beatae. Mollitia suscipit eveniet commodi asperiores
+         facilis in non, deleniti odit fuga, aspernatur exercitationem minima
+         dignissimos neque totam?
+      </p>
+   </body>
+</html>
